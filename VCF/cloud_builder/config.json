@@ -1,0 +1,33 @@
+{
+    "title": "Cloud Builder vApp Deployment Configuration",
+    "instances": [
+        {
+            "id": "lab1",
+            "sudoPwd": "VMware123!",
+            "adminUser": "admin",
+            "adminPwd": "VMware123!",
+            "ipAddress": "192.168.1.100",
+            "netmask": "255.255.255.0",
+            "gateway": "192.168.1.1",
+            "vmName": "cb-1",
+            "dnsIp": "192.168.1.10,192.168.1.11",
+            "ntpIp": "0.pool.ntp.org",
+            "ipProtocol": "IPv4",
+            "portGroup": "vRack-DPortGroup-Mgmt"
+        },
+        {
+            "id": "lab2",
+            "sudoPwd": "VMware123!",
+            "adminUser": "admin",
+            "adminPwd": "VMware123!",
+            "ipAddress": "192.168.1.100",
+            "netmask": "255.255.255.0",
+            "gateway": "192.168.1.1",
+            "vmName": "cb-1",
+            "dnsIp": "192.168.1.10,192.168.1.11",
+            "ntpIp": "0.pool.ntp.org",
+            "ipProtocol": "IPv4",
+            "portGroup": "vRack-DPortGroup-Mgmt"
+        }
+    ]
+}
