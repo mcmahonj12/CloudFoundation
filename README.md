@@ -9,5 +9,3 @@ It could be modified to perform mass deployments of Cloud Builder as well when a
 - Post configurations not performed by Cloud Foundation
 
 This is especially useful when testing Cloud Foundation.
-
-Hi
