@@ -1,4 +1,4 @@
-# Script checks vmkernels deployed by VxRail Manager to ensure Jumbo Frames has been configured for vSAN and vMotion
+# Script checks vmkernels deployed by VxRail Manager to ensure Jumbo Frames has been configured for vSAN and vMotion as VxRail sets all components to MTU 1500.
 # If not, Jumbo Frames is configured on vSAN/vMotion vmkernels.
 
 Write-Host "Getting all vMotion and vSAN enabled vmkernels not currently set with an MTU of 9K." -ForegroundColor Green
